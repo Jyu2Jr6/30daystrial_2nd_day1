@@ -1,0 +1,60 @@
+/* タブレット */
+@media screen and (max-width: 1179px) {
+  html {
+    font-size: 45%;
+  }
+
+  #header {
+    height: 80px;
+  }
+
+  .header-logo img {
+    margin-top: 20px;
+  }
+
+  .header-menu {
+    margin-top: 30px;
+  }
+
+  .header-menu a {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 12px 60px;
+    border-radius: 10px;
+    font-size: 24px;
+  }
+}
+
+/* スマホ */
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 35%;
+  }
+
+  #header {
+    height: 55px;
+  }
+
+  .header-logo img {
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+  }
+
+  .header-menu {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .header-menu a {
+    font-size: 12px;
+  }
+
+  .btn {
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+  }  
+}
